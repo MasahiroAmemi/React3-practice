@@ -1,17 +1,17 @@
 // Reactをインポートする
-import React from "react";
+import React from 'react';
 
 // Lessonクラスを定義
-class Lesson extends React.component{
+class Lesson extends React.Component {
   render() {
-    return() {
+    return (
       <div className='lesson-card'>
         <div className='lesson-item'>
           <p></p>
           <img />
         </div>
       </div>
-    }
+    );
   }
 }
 
